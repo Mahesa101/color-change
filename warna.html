@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan DOM</title>
+    
+    
+    <style>
+        html,body{
+            height: 100%;
+        }
+        body{
+            text-align: center;
+        }
+        .kota {
+            width: 25px;
+            height: 25px;
+            margin: 10px auto;
+        }
+        .Merah {background-color: red;}
+        .Hijau {background-color: green;}
+        .Biru {background-color: blue;}
+        .biru-muda { background-color: lightblue;};
+    </style>
+
+
+</head>
+<body>
+    <h1>Bermainan dengna Warna</h1>
+<button type="button" id="tUbahWarna">
+    Ubah Warna
+</button>
+
+<br><br>
+<div class="kota Merah"></div>
+<input type="range" name="sMerah" min="0" max="255">
+
+<div class="kota Hijau"></div>
+<input type="range" name="sHijau" min="0" max="255">
+
+<div class="kota Biru"></div>
+<input type="range" name="sBiru" min="0" max="255">
+
+<script src="script.js"></script>
+</body>
+</html>
